@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Salary Calculator Web App
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This web application built with Next.js and React helps users calculate their net salary based on their basic wage, earnings, and deductions. It leverages Tailwind CSS for styling, providing a clean and responsive user interface.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Dynamic Input Forms: Users can add and remove earnings and deductions dynamically.
+- Real-time Calculation: Calculates gross earnings, deductions, net salary, and other financial metrics based on user inputs.
+- EPF/ETF Handling: Supports optional EPF (Employee Provident Fund) and ETF (Employment Trust Fund) contributions for earnings.
+- Reset Functionality: Allows users to reset all input fields to start fresh calculations.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Installation
+1. Clone the repository:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+  ```sh
+  https://github.com/ksulakshana02/salary-calculator-2024-q2-ksulakshana02.git
+  ```  
+2. Navigate to the project directory:
+  ```sh
+  cd salary-calculator-2024-q2-ksulakshana02
+  ```
+3. Install dependencies:
 
-## Learn More
+  ```sh
+  npm install
+  ```
+4. Run the application:
 
-To learn more about Next.js, take a look at the following resources:
+  ```sh
+  npm run dev
+  ```
+  This will start the Next.js development server and open the app in your default web browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
+1. <strong>Basic Salary:</strong> Enter the base salary amount.
+2. Earnings: Add various types of earnings (allowances, bonuses) with optional EPF/ETF contributions.
+3. Deductions: Add deductions (taxes, EPF) with options to include or exclude them.
+4. Calculation: The app will dynamically calculate gross earnings, deductions, net salary, and other financial metrics based on your inputs.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technologies Used
 
-## Deploy on Vercel
+- React: Front-end library for building user interfaces.
+- Next.js: React framework for server-side rendering and routing.
+- Tailwind CSS: Utility-first CSS framework for styling.
+- JavaScript (ES6+): Programming language used for logic.
+- npm: Package manager for installing dependencies.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

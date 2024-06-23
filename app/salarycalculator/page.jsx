@@ -257,7 +257,7 @@ export default function HomePage() {
                                     </tr>
                                     <tr>
                                         <td className="px-4 py-2 font-normal text-base text-black">APIT</td>
-                                        <td className="px-4 py-2 font-normal text-base text-black text-right">- {apit}</td>
+                                        <td className="px-4 py-2 font-normal text-base text-black text-right">{apit}</td>
                                     </tr>
                                     <tr className="border-2 rounded">
                                         <td className="px-4 py-2 font-semibold text-base text-black">Net Salary (Take Home)</td>
